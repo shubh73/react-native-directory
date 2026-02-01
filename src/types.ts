@@ -28,8 +28,8 @@ export type Query = {
   order?: QueryOrder;
   direction?: QueryOrderDirection;
   search?: string;
-  offset?: string | null;
-  limit?: string;
+  offset?: string | number | null;
+  limit?: string | number;
   hasExample?: string;
   hasImage?: string;
   hasTypes?: string;
@@ -39,8 +39,8 @@ export type Query = {
   isPopular?: string;
   isRecommended?: string;
   wasRecentlyUpdated?: string;
-  minPopularity?: string;
-  minMonthlyDownloads?: string;
+  minPopularity?: string | number;
+  minMonthlyDownloads?: string | number;
   newArchitecture?: string;
   skipLibs?: string;
   skipTools?: string;

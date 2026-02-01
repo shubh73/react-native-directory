@@ -57,6 +57,8 @@ const Metadata = ({ library, authorName }: { library: LibraryType; authorName?: 
 
       {authorName && <List.Item.Detail.Metadata.Label title="Author" text={authorName} icon={Icon.Person} />}
 
+      <List.Item.Detail.Metadata.Separator />
+
       {library.github.urls.homepage && (
         <List.Item.Detail.Metadata.Link
           title="Website"
