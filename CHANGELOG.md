@@ -1,6 +1,13 @@
 # React Native Directory Changelog
 
-## [Added] - {PR_MERGE_DATE}
+## [Fixed] - {PR_MERGE_DATE}
+
+- Fixed a Raycast Beta crash caused by list item subtitles with only tooltip text.
+- Hid library row descriptions when the detail pane is expanded.
+- Updated Raycast dependencies to pinned current versions.
+- Added loading feedback while package author metadata is fetched.
+
+## [Added] - 2026-02-01
 
 - Added popularity/trending indicator with HOT label
 - Added module type badges (Expo, Turbo, Nitro) and Config Plugin indicator
